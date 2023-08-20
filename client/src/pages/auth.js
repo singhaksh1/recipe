@@ -75,7 +75,7 @@ const Register = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("http://localhost:3001/auth/register", {
+      await axios.post("https://recipe-back-v1k8.onrender.com/auth/register", {
         username,
         password,
       });
